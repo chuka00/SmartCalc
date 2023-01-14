@@ -1,0 +1,39 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>SmartCalc</AssemblyName>
+    <RootNamespace>SmartCalc</RootNamespace>
+    <PackageId>SmartCalc</PackageId>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>SmartCalc</Title>
+    <Authors>Chuka Ogbodo</Authors>
+    <Company>Genesys</Company>
+    <Product>SmartCalc</Product>
+    <Description>This is simply a calculator class library which contains the following methods
+
+1. Addition(int a, int b);
+
+2. Subtraction(int a, int b);
+
+3. Multiplication(int a, int b);
+
+4. Division(int a, int b);
+
+5. Modulus(int a, int b)
+
+Each method takes in two (2) parameters of type int and returns a value of type int too.
+</Description>
+    <PackageIcon>calc-icon.png</PackageIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\..\Downloads\calc-icon.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
