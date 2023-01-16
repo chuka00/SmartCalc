@@ -1,16 +1,32 @@
 # SmartCalc 😎
 
 SmartCalc is a class library for simple mathematical operations. The mathematical operations includes:
-1. Addition(int a, int b);
+```
+public int Addition(int a, int b)
+        {
+            return a + b;
+        }
 
-2. Subtraction(int a, int b);
+        public int Subtraction(int a, int b)
+        {
+            return a - b;
+        }
 
-3. Multiplication(int a, int b);
+        public int Multiplication(int a, int b)
+        {
+            return a * b;
+        }
 
-4. Division(int a, int b);
+        public int Division(int a, int b)
+        {
+            return a / b;
+        }
 
-5. Modulus(int a, int b);
-
+        public int Modulus(int a, int b)
+        {
+            return a % b;
+        }
+```
 Each method takes in two (2) parameters of type int and returns a value of type int too.
 
 
@@ -34,7 +50,8 @@ You can install this NuGet package into any .NET project if that package support
 4. In your project, simply instantiate the operations class before usage.  
 
 `###`Code Sample
-```namespace CalcutexDemoLibraryClient
+```
+namespace CalcutexDemoLibraryClient
 {
     internal class Program
     {
