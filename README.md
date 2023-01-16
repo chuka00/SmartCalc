@@ -1,6 +1,7 @@
 # SmartCalc 😎
+SmartCalc is a class library for simple mathematical operations.
 
-SmartCalc is a class library for simple mathematical operations. The mathematical operations includes:
+The mathematical operations includes:
 ```
 public int Addition(int a, int b)
         {
@@ -31,21 +32,26 @@ Each method takes in two (2) parameters of type int and returns a value of type 
 
 
 ## Installation
+1. Install Visual Studio 2022 for Windows with a .NET Core-related workload.
+2. You can install the 2022 Community edition for free from visualstudio.microsoft.com, or use the Professional or Enterprise edition.
+
 
 ### Prerequisites
+1. An understanding of C# and NuGet Packages
+2. Visual Studio
 
-Install Visual Studio 2022 for Windows with a .NET Core-related workload.
-
-You can install the 2022 Community edition for free from visualstudio.microsoft.com, or use the Professional or Enterprise edition.
 
 ## Usage
 You can install this NuGet package into any .NET project if that package supports the same target framework as the project. To use SmartCalc in your project, kindly follow these steps:
 
-1. In your Visual Studio, Select Project > Manage NuGet Packages.
+#### Installation using Visual Studio
+1. In the Solutions Explorer of your project, Right-click on project dependencies 
 
-2. In the NuGet Package Manager page, choose nuget.org as the Package source.
+2. Select manage Nuget packages
 
 3. From the Browse tab, search for **SmartCalc**, select it in the list, and then select Install.
+
+#### To install our package using the .NET CLI, run: *dotnet add package SmartCalc --version 1.0.0* 
 
 4. In your project, simply instantiate the operations class before usage.  
 
