@@ -51,7 +51,7 @@ You can install this NuGet package into any .NET project if that package support
 
 3. From the Browse tab, search for **SmartCalc**, select it in the list, and then select Install.
 
-#### To install our package using the .NET CLI, run: *dotnet add package SmartCalc --version 1.0.0* 
+#### To install our package using the .NET CLI, run: *dotnet add package SmartCalc --version 1.0.1* 
 
 4. In your project, simply instantiate the operations class before usage.  
 
