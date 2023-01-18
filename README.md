@@ -24,7 +24,7 @@ You can install this NuGet package into any .NET project if that package support
 4. In your project, simply instantiate the operations class before usage.  
 
 ## Sample
-This is a sample of a mathematical operation:
+This is a sample of a mathematical operation in the package:
 ```
 public int Addition(int a, int b)
         {
