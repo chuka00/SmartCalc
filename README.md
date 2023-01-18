@@ -1,45 +1,13 @@
 # SmartCalc 😎
 SmartCalc is a class library for simple mathematical operations.
 
-The mathematical operations includes:
-```
-public int Addition(int a, int b)
-        {
-            return a + b;
-        }
-
-        public int Subtraction(int a, int b)
-        {
-            return a - b;
-        }
-
-        public int Multiplication(int a, int b)
-        {
-            return a * b;
-        }
-
-        public int Division(int a, int b)
-        {
-            return a / b;
-        }
-
-        public int Modulus(int a, int b)
-        {
-            return a % b;
-        }
-```
-Each method takes in two (2) parameters of type int and returns a value of type int too.
-
-
 ## Installation
 1. Install Visual Studio 2022 for Windows with a .NET Core-related workload.
 2. You can install the 2022 Community edition for free from visualstudio.microsoft.com, or use the Professional or Enterprise edition.
 
-
 ### Prerequisites
 1. An understanding of C# and NuGet Packages
 2. Visual Studio
-
 
 ## Usage
 You can install this NuGet package into any .NET project if that package supports the same target framework as the project. To use SmartCalc in your project, kindly follow these steps:
@@ -55,6 +23,15 @@ You can install this NuGet package into any .NET project if that package support
 
 4. In your project, simply instantiate the operations class before usage.  
 
+##Sample
+This is a sample of a mathematical operation:
+```
+public int Addition(int a, int b)
+        {
+            return a + b;
+        }      
+```
+Each method takes in two (2) parameters of type int and returns a value of type int too.
 
 ## Demonstration 
 ```
